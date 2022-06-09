@@ -101,12 +101,27 @@ button {
     color: #fff;
     font-weight: 900;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8080ff;
 }
 
 .cancel{
     font-size: 14px;
     font-weight: 900;
     color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+a:hover{
+    color: #8080ff;
+    text-decoration: none;
 }
 
 @media (max-width: 450px){
